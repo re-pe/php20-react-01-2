@@ -1,3 +1,4 @@
+import React from 'react';
 import NavbarHeader from './navbar-header';
 import Navbar from './navbar';
 
@@ -10,5 +11,5 @@ export default function Header() {
             <Navbar />
 
         </header>
-    )
-};
+    );
+}

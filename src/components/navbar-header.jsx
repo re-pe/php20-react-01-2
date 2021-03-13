@@ -1,3 +1,4 @@
+import React from 'react';
 import Menu from './menu';
 
 export default function NavbarHeader() {
@@ -12,13 +13,14 @@ export default function NavbarHeader() {
                     <div className="col-sm-4 offset-md-1 py-4">
                         <h4 className="text-white">Contact</h4>
                         <Menu items={[
-                            { text: "Follow on Twitter" },
-                            { text: "Like on Facebook" },
-                            { text: "Email me" }
-                        ]} />
+                            { id: 'twitter', text: 'Follow on Twitter' },
+                            { id: 'facebook', text: 'Like on Facebook' },
+                            { id: 'email', text: 'Email me' },
+                        ]}
+                        />
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
