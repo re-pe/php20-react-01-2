@@ -5,9 +5,7 @@ import './div-card.css';
 
 export default function DivCard(props) {
     const { itemData } = props;
-    const {
-        description, price, amount, unit, category, image,
-    } = itemData;
+    const { description, price, amount, unit, category, image } = itemData;
 
     return (
         <div className="col-md-4">
